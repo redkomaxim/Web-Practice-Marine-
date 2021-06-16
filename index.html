@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/glider.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header_nav">
+            <!--Header-->
+            <header>
+                <div class="wrap header_wrap">
+                    <div class="left">
+                        <div class="left_logo">
+                            <img src="images/logo.png" alt="Logo Company" title="Logo Company">
+                        </div>
+                        <span id="left_text">MARINE</span>
+                    </div>
+                    <div class="right">
+                        <span id="right_text"><a>CALL US: +1 800 450 17 04 |</a></span>
+                        <a id="phone" href="#"><img src="images/phone.png" alt="Phone" title="Phone">
+                        </a>
+                        <div class="social_icons">
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/facebook.png" alt="Facebook" title="Facebook">
+                            </a>
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/twitter.png" alt="Twitter" title="Twitter">
+                            </a>
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/skype.png" alt="Skype" title="Skype">
+                            </a>
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/g+.png" alt="Google+" title="Google+">
+                            </a>
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/V.png" alt="Vimeo" title="Vimeo">
+                            </a>
+                            <a class="social icons_hidden" href="#">
+                                <img src="images/in.png" alt="Linkedin" title="Linkedin">
+                            </a>
+                            <a id="social" class="social icons_hidden" href="#">
+                                <img src="images/ins.png" alt="Instagram" title="Instagram">
+                            </a>
+                            <button id="social_but" onclick="show(icon)">
+								<img src="images/share.png" alt="Social" title="Social">
+							</button>
+                        </div>
+                    </div>
+                    <div id="mobile_type" class="mobile_type">
+                        <img src="images/form_search.png" alt="" title="">
+                        <div class="mobile_icons">
+                            <a class="social" href="#">
+                                <img src="images/facebook.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/twitter.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/skype.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/g+.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/V.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/in.png" alt="" title="">
+                            </a>
+                            <a class="social" href="#">
+                                <img src="images/ins.png" alt="" title="">
+                            </a>
+                        </div>
+                        <div class="background"></div>
+                    </div>
+                </div>
+            </header>
+
+            <!--Menu-->
+            <nav>
+                <div class="wrap nav_wrap">
+                    <div class="nav_left">
+                        <ul>
+                            <li>
+                                <a class="nav_link" href="#">
+                                    <span class="nav_text">HOME</span>
+                                    <img class="nav_arrow" src="images/nav_arrow.png" alt="" title="">
+                                    <img class="blue_arrow" src="images/blue_arrow.png" alt="" title="">
+                                </a>
+                            </li>
+                            <li><a class="nav_link" href="#">BLOG
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="" title="">
+									<img class="blue_arrow" src="images/blue_arrow.png" alt="" title="">
+								</a>
+                            </li>
+                            <li><a class="nav_link" href="#">GALLERY
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="" title="">
+									<img class="blue_arrow" src="images/blue_arrow.png" alt="" title="">
+								</a>
+                            </li>
+                            <li><a class="nav_link" href="#">PAGES
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="" title="">
+									<img class="blue_arrow" src="images/blue_arrow.png" alt="" title="">
+								</a>
+                            </li>
+                            <li><a class="nav_link" href="#">CONTACTS
+									<img class="nav_arrow" src="images/nav_arrow.png" alt="" title="">
+									<img class="blue_arrow" src="images/blue_arrow.png" alt="" title="">
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_right">
+                        <button onclick="showhide(mydiv)" class="search">
+							<img src="images/search.png" alt="" title="">
+						</button>
+                    </div>
+                    <div id="d1" class="d1">
+                        <img src="images/form_search.png" alt="" title="">
+                        <form>
+                            <input class="text_search" type="text" placeholder="    Search...">
+                            <button class="search_button" type="submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Natural Power-->
+        <div class="biglogo">
+            <div class="slider center_logo">
+                <img src="images/ship.png" alt="" title="">
+                <h1>NATURAL POWER</h1>
+                <p class="text_centerlogo"> VIVAMUS ORGI SEM, CONSECTETUR UT VESTIBULUM.</p>
+            </div>
+            <div class="slider slider_arrow">
+                <button class="arrow arrow_prev" id="prev">
+					<img src="images/arrow_left.png" alt="" title="">
+				</button>
+                <button class="arrow arrow_next" id="next">
+					<img src="images/arrow_right.png" alt="" title="">
+				</button>
+            </div>
+            <ul id="slides">
+                <li class="slide active">
+                    <img src="images/bg2.jpg" alt="" title="">
+                </li>
+                <li class="slide">
+                    <img src="images/bg2.jpg " alt="" title="">
+                </li>
+                <li class="slide">
+                    <img src="images/bg2.jpg " alt="" title="">
+                </li>
+            </ul>
+            <div class="slider slider_footer">
+                <div class="bg_slfooter"> </div>
+                <div class="wrap wrap_slfooter">
+                    <div class="web_dev">
+                        <div class="rectangle">
+                            <img src="images/rectangle.png" alt="" title="">
+                            <div class="web_rectangle">
+                                <img src="images/cog.png" alt="" title="">
+                            </div>
+                        </div>
+                        <p class="header_rectangle">Web development</p>
+                        <p class="text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                    <div class="seo_mon">
+                        <div class="rectangle">
+                            <img src="images/rectangle.png" alt="" title="">
+                            <div class="web_rectangle"><img src="images/line_chart.png" alt="" title=""></div>
+                        </div>
+                        <p class="header_rectangle">SEO Monitoting</p>
+                        <p class="text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                    <div class="net_com">
+                        <div class="rectangle"><img src="images/rectangle.png" alt="" title="">
+                            <div class="web_rectangle"><img src="images/community.png" alt="" title=""></div>
+                        </div>
+                        <p class="header_rectangle">Network Communities</p>
+                        <p class="text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                    <div class="web_an">
+                        <div class="rectangle"><img src="images/rectangle.png" alt="" title="">
+                            <div class="web_rectangle"><img src="images/pie_chart.png" alt="" title=""></div>
+                        </div>
+                        <p class="header_rectangle">Web analytics</p>
+                        <p class="text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Recent Projects-->
+        <div class="recent_projects ">
+            <h2 id="headline_proj">Recent Projects</h2>
+            <p id="text_proj">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus. Vestibulum eu ligula lorem. <br /> Vivamus orci sem, consectetur ut vestibulum a, semper ac dui.</p>
+            <div class="glider-contain">
+                <div class="glider">
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt="" title="">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="" title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="" title="">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt="" title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="" title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt="" title="">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="" title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="" title="">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt="" title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="" title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj">
+                        <img src="images/slider_proj.png" alt="" title="">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="" title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="" title="">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt="" title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="" title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_proj"><img src="images/slider_proj.png" alt=" а" title=" ">
+                        <div class="proj_about">
+                            <button class="proj_but link"></button>
+                            <button class="proj_but about"></button>
+                        </div>
+                        <div class="proj_shape">
+                            <img class="shape" src="images/proj_shape.png" alt="  " title="">
+                            <img class="active_shape" src="images/active_proj_shape.png" alt="  " title=" ">
+                            <div class="title">
+                                <p class="project_title">Project Title</p>
+                                <p class="text_title">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="heart">
+                                <img class="heart_black" src="images/proj_heart.png" alt=" " title="">
+                                <img class="heart_red" src="images/proj_redheart.png" alt="  " title="">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Check details-->
+        <div class="check_details">
+            <div class="wrap check_wrap">
+                <p><span id="check_text">A fully responsive theme</span> with clean design for your success!</p>
+                <button><img src="images/button_icon.png" alt="" title=""><span> CHECK DETAILS</span></button>
+            </div>
+        </div>
+
+        <!--Recent Posts-->
+        <div class="posts">
+            <div class="wrap recent_wrap">
+                <div class="recent_posts">
+                    <h3>Recent Posts</h3>
+                    <div class="post_pi">
+                        <div class="post_photo">
+                            <p class="day">15</p>
+                            <p class="date">OCT,2021</p>
+                            <p class="photo"><img src="images/camera.png" alt="" title="">
+                                <p>
+                        </div>
+                        <div class="image_post">
+                            <img src="images/post_image.png" alt=" " title="">
+                        </div>
+                        <div class="read_more">
+                            <p class="link_posts">
+                                <a href="#">BY ADMIN</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#">WEB,NEWS</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#">5 COMMENTS</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#"><span>READ MORE</span></a>
+                                <img src="images/post_arrow.png" alt=" " title="">
+                            </p>
+                            <hr class="posts_line" />
+                            <p class="post_header">Vivamus orci sem,conse tur per ac dui oin vulputate.</p>
+                            <p class="post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post_pi">
+                        <div class="post_photo">
+                            <p class="day">15</p>
+                            <p class="date">OCT,2021</p>
+                            <p class="photo"><img src="images/video.png" alt=" " title="">
+                                <p>
+                        </div>
+                        <div class="image_post">
+                            <img src="images/post_image.png" alt=" " title="">
+                        </div>
+                        <div class="read_more">
+                            <p class="link_posts">
+                                <a href="#">BY ADMIN</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#">WEB,NEWS</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#">5 COMMENTS</a>
+                                <img src="images/point.png" alt=" " title="">
+                                <a href="#"><span>READ MORE</span></a>
+                                <img src="images/post_arrow.png" alt=" " title="">
+                            </p>
+                            <hr class="posts_line" />
+                            <p class="post_header">Orci sem,conse tur per ac dui oin tate.</p>
+                            <p class="post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum. Ut sem lacus, ttitor et aliqua. Eget, iaculis id lacus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Accordeon-->
+                <div class="accord">
+                    <h3>Accordeon</h3>
+                    <input class="accord__radio" type="checkbox" id="ka1" name="ak" />
+                    <label class="accord__page" for="ka1"><h4>Lorem ipsum dolor sit.</h4></label>
+                    <p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, pariatur.</p>
+                    <input class="accord__radio" type="checkbox" id="ka2" name="ak" />
+                    <label class="accord__page" for="ka2"><h4>Lorem ipsum dolor sit.</h4></label>
+                    <p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis, ullam laborum adipisci debitis! Provident.</p>
+                    <input class="accord__radio" type="checkbox" id="ka3" name="ak" />
+                    <label class="accord__page" for="ka3"><h4>Lorem ipsum dolor sit.</h4></label>
+                    <p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum minima sapiente, ad libero.</p>
+                </div>
+
+                <!--People-->
+                <div class="people">
+                    <h3>What People Say</h3>
+                    <div class="say_block">
+                        <img id="people_shape" src="images/people_shape.png" alt=" " title=" ">
+                        <div><img src="images/people_icon.png" alt="" title=""></div>
+                        <div class="name_com">
+                            <p class="people_name">Sarah Doe</p>
+                            <p class="people_company">CEO, COMPANY.COM</p>
+                        </div>
+                    </div>
+                    <div class="people_quotes">
+                        <img src="images/quotes.png" alt="" title="">
+                    </div>
+                    <div class="people_ht">
+                        <p class="say_header post_header">Vivamus orci sem, consectetur ut vestibulum a,semper ac dui.
+                        </p>
+                        <p class="say_text post_text">Proin vulputate aliquam mi nec rerit. Sed entum velit ve ipsum bibendum tristique. Ut sem lacus, tutor putate liquam mi nec hendrerit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--PC-->
+        <div class="flexible_pictures">
+            <div class="wrap">
+                <div class="wrap_picture">
+                    <div class="pictures">
+                        <div class="flexible_bigimg">
+                            <img src="images/flexible_bigimg.png" alt=" " title=" ">
+                        </div>
+                        <div class="flexible_img">
+                            <img src="images/flexible_img.png" alt=" " title=" ">
+                        </div>
+                        <div class="keyboard">
+                            <img src="images/keyboard.png" alt="  " title="">
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_picture">
+                    <div class="picture">
+                        <div class="icon_block">
+                            <img src="images/plane.png" alt=" " title="">
+                            <div class="flexible_ht">
+                                <p class="flexible_header">Flexible Solutions</p>
+                                <p class="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="flexible_line" />
+                        <div class="icon_block">
+                            <img src="images/compass.png" alt=" " title="">
+                            <div class="flexible_ht">
+                                <p class="flexible_header">Target Approach</p>
+                                <p class="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="flexible_line" />
+                        <div class="icon_block">
+                            <img src="images/world.png" alt="" title="">
+                            <div class="flexible_ht">
+                                <p class="flexible_header">Gllobal Development</p>
+                                <p class="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br /> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Our team-->
+        <div class="team">
+            <div class="wrap team_wrap">
+                <p id="team_header">Our Team</p>
+                <div class="sarah">
+                    <img class="icon" src="images/team_icon.png" alt="" title="">
+                    <p class="team_name">Sarah Doe</p>
+                    <p class="team_company">CEO</p>
+                    <p class="team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.
+                    </p>
+                    <hr>
+                    <p class="team_socials">
+                        <a class="team_social" href="#">
+                            <img src="images/facebook.png" alt="" title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/twitter.png" alt="" title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/skype.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/g+.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/V.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/in.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/ins.png" alt=" " title="">
+                        </a>
+                    </p>
+                </div>
+                <div class="sarah">
+                    <img class="icon" src="images/team_icon.png" alt=" " title="">
+                    <p class="team_name">Sarah Doe</p>
+                    <p class="team_company">CEO</p>
+                    <p class="team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.
+                    </p>
+                    <hr>
+                    <p class="team_socials">
+                        <a class="team_social" href="#">
+                            <img src="images/facebook.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/twitter.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/skype.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/g+.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/V.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/in.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/ins.png" alt=" " title="">
+                        </a>
+                    </p>
+                </div>
+                <div class="sarah">
+                    <img class="icon" src="images/team_icon.png" alt=" " title="">
+                    <p class="team_name">Sarah Doe</p>
+                    <p class="team_company">CEO</p>
+                    <p class="team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.
+                    </p>
+                    <hr>
+                    <p class="team_socials">
+                        <a class="team_social" href="#">
+                            <img src="images/facebook.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/twitter.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/skype.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/g+.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/V.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/in.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/ins.png" alt=" " title="">
+                        </a>
+                    </p>
+                </div>
+                <div class="sarah">
+                    <img class="icon" src="images/team_icon.png" alt=" " title="">
+                    <p class="team_name">Sarah Doe</p>
+                    <p class="team_company">CEO</p>
+                    <p class="team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.
+                    </p>
+                    <hr>
+                    <p class="team_socials">
+                        <a class="team_social" href="#">
+                            <img src="images/facebook.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/twitter.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/skype.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/g+.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/V.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/in.png" alt=" " title="">
+                        </a>
+                        <a class="team_social" href="#">
+                            <img src="images/ins.png" alt=" " title="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Sponsors-->
+        <div class="sponsors">
+            <div class="wrap sponsors_wrap">
+                <div class="sponsor">
+                    <img src="images/netcredid.png" alt=" " title="">
+                </div>
+                <div class="sponsor">
+                    <img src="images/paroo.png" alt=" " title="">
+                </div>
+                <div class="sponsor">
+                    <img src="images/foxters.png" alt=" " title="">
+                </div>
+                <div class="sponsor">
+                    <img src="images/queens.png" alt=" " title="">
+                </div>
+                <div class="sponsor">
+                    <img src="images/kamkord.png" alt=" " title="">
+                </div>
+            </div>
+        </div>
+
+        <!--Form-->
+        <div class="form">
+            <p id="form_header">Get in Touch!</p>
+            <form>
+                <div class="form_name">
+                    <input class="name" type="text" required placeholder="Name*">
+                    <img class="img_name" src="images/form_name.png" alt=" " title="">
+                </div>
+                <div class="form_name">
+                    <input class="emailname" type="email" required placeholder="E-mail*">
+                    <img class="img_email" src="images/form_massage.png" alt=" " title="">
+                </div>
+                <div class="form_massage">
+                    <textarea class="message" placeholder="Massage"></textarea>
+                </div>
+                <div class="form_button">
+                    <button class="send" type="submit">SEND MASSAGE</button>
+                    <button class="clear" type="reset">CLEAR
+						<img class="img_clear" src="images/clear.png" alt=" " title="">
+					</button>
+                </div>
+            </form>
+        </div>
+
+        <!--Twitter post-->
+        <div class="twitter_block">
+            <div class="wrap wrap_twit">
+                <div class="bird_block"><img src="images/bird.png" alt="a" title=""></div>
+                <ul id="twit_slides">
+                    <li class="twit_slide twit_active">
+                        <p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Quill</a><br />
+                            <span>about 5 minutes ago</span>
+                        </p>
+                    </li>
+                    <li class="twit_slide ">
+                        <p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Rob</a><br />
+                            <span>about 5 minutes ago</span>
+                        </p>
+                    </li>
+                    <li class="twit_slide ">
+                        <p class="twitter_text"><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Den</a><br />
+                            <span>about 5 minutes ago</span>
+                        </p>
+                    </li>
+                </ul>
+                <div class="twit_button">
+                    <button class="left_twitb" id="left_twit"><img src="images/arrowl_twit.png" alt="  "
+							title=""></button>
+                    <button class="right_twitb" id="right_twit"><img src="images/arrowr_twit.png" alt="  "
+							title=""></button>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="footer">
+                <div class="wrap wrap_footer1">
+                    <div class="footer_logo" id="footer_logo">
+                        <div class="img_logo"><img src="images/footer_logo.png" alt=" " title="">
+                        </div>
+                        <p class="header_logo">MARINE</p>
+                        <p class="text_footer">Vivamus orci sem,consectetur ut vestibulum a, mper ac dui. aenean tellus risl, commodo eu aliquet ut, pulvinar ut sapien. Proin tate aliquam mi nec hendrerit.</p>
+                    </div>
+                    <div class="footer_posts">
+                        <p class="footer_header">Recent Posts</p>
+                        <p class="footer_post"><a href="">DEC 15,2021</a> | <a href="">BY ADMIN</a></p>
+                        <p class="footer_header_post">Morbi a libero eget erat auctor.</p>
+                        <p class="text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem, ectetur.
+                        </p>
+                        <hr id="footer_line" color="#23323a" />
+                        <p class="footer_post">DEC 15,2021 BY ADMIN</p>
+                        <p class="footer_header_post">Morbi a libero eget erat auctor.</p>
+                        <p class="text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem, ectetur.
+                        </p>
+                    </div>
+                    <div class="footer_contacts">
+                        <p class="footer_header">Contacts</p>
+                        <div class="wrap_block">
+                            <div class="img_contacts"><img src="images/contact_point.png" alt=" " title=""></div>
+                            <p class="text_footer text_contacts">Phoenix Inc.<br /> PO Box 21177<br /> Little Lonsdale St, Melbourne<br /> Victoria 8011 Australia<br />
+                            </p>
+                        </div>
+                        <div class="wrap_block">
+                            <div class="img_contacts"><img src="images/contact_phone.png" alt=" а" title="">
+                            </div>
+                            <p class="text_footer text_contacts"><a>Phone: (415) 124-5678</a><br /> Fax: (415) 124-5678<br />
+                            </p>
+                        </div>
+                        <div class="wrap_block">
+                            <div class="img_contacts"><img src="images/contact_email.png" alt=" " title="">
+                            </div>
+                            <p class="text_footer text_contacts last_contact">support@yourname.com</p>
+                        </div>
+                    </div>
+                    <div class="footer_newsletter">
+                        <p class="footer_header">Newsletter Signup</p>
+                        <p class="text_footer">By subscribing to our mailing list you will get the latest news from us.
+                        </p>
+                        <form>
+                            <div class="footer_form"><input class="footer_email" type="email" required placeholder="">
+                                <div class="icon_email"><img src="images/ok.png" alt=" " title=""></div>
+                            </div>
+                        </form>
+                        <p class="follow_us">Follow Us</p>
+                        <p class="footer_socials">
+                            <a class="footer_social" href="#">
+                                <img src="images/facebook.png" alt=" а" title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/twitter.png" alt=" а" title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/skype.png" alt=" а" title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/g+.png" alt=" " title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/V.png" alt=" " title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/in.png" alt=" " title="">
+                            </a>
+                            <a class="footer_social" href="#">
+                                <img src="images/ins.png" alt=" " title="">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap">
+                <p>© 2021 MARINE. All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script/accordeon.js"></script>
+    <script src="script/big-slider.js"></script>
+    <script src="script/glider-load.js"></script>
+    <script src="script/glider.js"></script>
+    <script src="script/project-glider.js"></script>
+    <script src="script/search.js"></script>
+    <script src="script/socials-for-mobile.js"></script>
+    <script src="script/twitter-slider.js"></script>
+
+</body>
+
+</html>
+
+</html>
